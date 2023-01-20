@@ -1,0 +1,47 @@
+body {
+    font-family: "Lato", sans-serif;
+    min-height: 100vh;
+    max-width: 900px;
+    background-color: FCFCFF; 
+    margin: 7% 2%;
+  }
+  h1
+  {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1A2E4C;
+  }
+  titlu
+  {
+    font-size: 14px;
+    font-weight: bold;
+    color: #F1600D;
+    }
+    p {
+      color: #1E1B18;
+    }
+    .page{
+      margin-left:160px;
+      margin-top: 0px;
+      font-size: 20px;
+    }
+.page h3{
+  color: #59c804;
+}
+.page  a:link {
+  color: #CC5803;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.page a:visited {
+  color: #112146;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.page a:hover {
+  color: #70C72D;
+  background-color: transparent;
+  text-decoration: underline;
+}

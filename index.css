@@ -1,0 +1,123 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  min-height: 100vh;
+  max-width: 150%;
+  background-color: FCFCFF; 
+  margin: 0% 0%;
+}
+h1
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: #1A2E4C;
+}
+titlu
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: #F1600D;
+  }
+  p {
+    color: #1E1B18;
+  }
+  .page{
+    
+    margin-left:160px;
+    font-size: 15px;
+  }
+  .page h1,.page h2{
+    font-size: 20px;
+  }
+  .new_products  a:link {
+    color: #CC5803;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .new_products a:visited {
+    color: #112146;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .new_products a:hover {
+    color: #70C72D;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .popular_products  a:link {
+    color: #CC5803;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .popular_products a:visited {
+    color: #112146;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .popular_products a:hover {
+    color: #70C72D;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+    #slider {
+      position: relative;
+      width: 1300px;
+      max-width: 1500px;
+      height: 150px;
+    
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    }
+    #slider ul {
+      position: relative;
+      list-style: none;
+      height: 100%;
+      width: 10000%;
+      padding: 0;
+      margin: 0;
+      transition: all 750ms ease;
+      left: 0;
+    }
+    #slider ul li {
+      position: relative;
+      height: 100%;
+    
+      float: left;
+    }
+    #slider ul li img{
+      width: 1300px;
+      height: 265px;
+    }
+    #slider #prev, #slider #next {
+      width: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      position: absolute;
+      top: 50%;
+      border-radius: 50%;
+      font-size: 2rem;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+      transform: translateY(-50%);
+      transition: all 150ms ease;
+    }
+    #slider #prev {
+      left: 10px;
+    }
+    #slider #next {
+      right: 10px;
+    }
+    
+    #slider #prev:hover, #slider #next:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      text-shadow: 0;
+    }
+  
+   
+ 

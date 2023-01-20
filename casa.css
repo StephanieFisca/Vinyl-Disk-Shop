@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px solid;
+    padding: 8px;
+    margin-left:12%;
+    margin-right:17%;
+  }
+
+  table{
+    width: 80%;
+  }
+  th {
+    height: 50px;
+    width: 50px;
+  }
+  td {
+    text-align: center;
+    width: 50px;
+  }
+
+  h2{
+    margin-right:70%;
+  }

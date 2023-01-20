@@ -1,0 +1,22 @@
+table, th {
+  font-family: "Lato", sans-serif;
+  max-width: 600px;
+  background-color: FCFCFF; 
+  margin: 1% 15%;
+  }
+  table {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  td {
+    position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+  left: -50px;
+  padding:50px;
+    text-align: left;
+  }
+  th, td {
+
+    text-align: left;
+    padding: 20px;
+  }
